@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cousine", monospace;
+}
+
+:root{
+    --bg-blue: #080C3A;
+    --color-white-500: rgb(255, 255, 255, 0.5);
+    --color-white-600: rgb(255, 255, 255, 0.66);
+    --color-white-700: rgb(255, 255, 255, 0.70);
+    --color-white-800: rgb(255, 255, 255, 0.77);
+}
