@@ -68,3 +68,28 @@ body {
     }
 
 }
+
+#bola {
+    position: absolute;
+    z-index: -1;
+    right: 350px;
+    bottom: 60px;
+    animation: flutuar 5s infinite;
+}
+
+@keyframes flutuar {
+    0%{
+        transform: translate(300px);
+    }
+
+    50%{
+        transform: translateY(300px);
+    }
+
+    75%{
+        transform: translateZ(300px);
+    }
+    100%{
+        transform: translateX(-300px);
+    }
+}
