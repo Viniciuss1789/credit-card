@@ -74,22 +74,23 @@ body {
     z-index: -1;
     right: 350px;
     bottom: 60px;
-    animation: flutuar 5s infinite;
+    animation: flutuar 2.5s infinite;
+    animation-direction: alternate;
 }
 
 @keyframes flutuar {
     0%{
-        transform: translate(300px);
+        transform: translate(100px);
     }
 
     50%{
-        transform: translateY(300px);
+        transform: translateY(100px);
     }
 
     75%{
-        transform: translateZ(300px);
+        transform: translateZ(100px);
     }
     100%{
-        transform: translateX(-300px);
+        transform: translateX(-100px);
     }
 }
